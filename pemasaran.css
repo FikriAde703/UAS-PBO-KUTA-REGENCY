@@ -1,0 +1,217 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fafafa;
+}
+
+header {
+  background-color: #00aaff;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header nav li {
+  margin-right: 20px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-size: px;
+}
+
+header nav a:hover {
+  color: #005f7f;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+section {
+  background-color: #fff;
+  padding: 2em;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 80%;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #00aaff;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #005f7f;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat {
+  margin-right: 20px;
+  background-color: #00c8ff;
+  color: #fff;
+  padding: 1em;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1;
+}
+
+.stat h2 {
+  margin-top: 0;
+  color: #005f7f;
+}
+
+.perumahan-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perumahan-info img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.perumahan-info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.perumahan-info li {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.perumahan-info li:before {
+  content: "\2022";
+  margin-right: 10px;
+  color: #00aaff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #00aaff;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #e0f7ff;
+}
+
+.laporan-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.laporan-container h2 {
+  margin-top: 0;
+  color: #005f7f;
+}
+
+.laporan-container p {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Hidden sections initially */
+.hidden {
+  display: none;
+}
+
+.house-types {
+  background-color: #e0f7ff;
+  padding: 1em;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.house-types h2 {
+  color: #00aaff;
+}
+
+.house-types ul {
+  list-style: none;
+  padding: 0;
+}
+
+.house-types li {
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}

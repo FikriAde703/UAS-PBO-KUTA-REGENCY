@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUTA Regency - Pemasaran Kerja Sama</title>
+    <link rel="stylesheet" href="pemasaran.css">
+    <script src="pemasaran.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#dasbor">Dasbor</a></li>
+                <li><a href="#profil-perumahan">Profil Perumahan</a></li>
+                <li><a href="#kerja-sama">Kerja Sama</a></li>
+                <li><a href="#pemasaran">Pemasaran</a></li>
+                <li><a href="#penjualan">Penjualan</a></li>
+                <li><a href="#laporan">Laporan</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="dasbor">
+            <h1>Dasbor</h1>
+            <p>Statistik dan laporan kinerja pemasaran</p>
+            <div class="stats">
+                <div class="stat">
+                    <h2>Penjualan</h2>
+                    <p id="penjualan-stat">100 unit</p>
+                </div>
+                <div class="stat">
+                    <h2>Kerja Sama</h2>
+                    <p id="kerja-sama-stat">50 kerja sama</p>
+                </div>
+                <div class="stat">
+                    <h2>Pemasaran</h2>
+                    <p id="pemasaran-stat">200 leads</p>
+                </div>
+            </div>
+            <div class="house-types">
+                <h2>Tipe Rumah</h2>
+                <ul id="house-types-list">
+                    <!-- Data akan di-render di sini -->
+                </ul>
+            </div>
+        </section>
+        <section id="profil-perumahan" class="hidden">
+            <h1>Profil Perumahan</h1>
+            <p>Informasi lengkap Perumahan KUTA Regency</p>
+            <div class="perumahan-info">
+                <h2>Denah</h2>
+                <img src="denah.jpg" alt="Denah Perumahan KUTA Regency">
+                <h2>Fasilitas</h2>
+                <ul>
+                    <li>Swimming pool</li>
+                    <li>Gym</li>
+                    <li>Security 24/7</li>
+                </ul>
+            </div>
+        </section>
+        <section id="kerja-sama" class="hidden">
+            <h1>Kerja Sama</h1>
+            <p>Daftar kerja sama terkini</p>
+            <table id="kerja-sama-table">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Jenis Kerja Sama</th>
+                        <th>Target</th>
+                        <th>Budget</th>
+                    </tr>
+                </thead>
+                <tbody id="kerja-sama-tbody">
+                    <!-- data will be rendered here -->
+                </tbody>
+            </table>
+        </section>
+        <section id="pemasaran" class="hidden">
+            <h1>Pemasaran</h1>
+            <p>Strategi pemasaran</p>
+            <div class="pemasaran-strategy">
+                <h2>Media Sosial</h2>
+                <p>Facebook, Instagram, Twitter</p>
+                <h2>Email Marketing</h2>
+                <p>Newsletter, promotional email</p>
+            </div>
+        </section>
+        <section id="penjualan" class="hidden">
+            <h1>Penjualan</h1>
+            <p>Data calon pembeli</p>
+            <table id="penjualan-table">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Alamat</th>
+                        <th>No HP</th>
+                    </tr>
+                </thead>
+                <tbody id="penjualan-tbody">
+                    <!-- data will be rendered here -->
+                </tbody>
+            </table>
+        </section>
+        <section id="laporan" class="hidden">
+            <h1>Laporan</h1>
+            <p>Laporan kinerja pemasaran</p>
+            <div class="laporan-container">
+                <h2>Penjualan</h2>
+                <p id="laporan-penjualan">100 unit</p>
+                <h2>Kerja Sama</h2>
+                <p id="laporan-kerja-sama">50 kerja sama</p>
+                <h2>Pemasaran</h2>
+                <p id="laporan-pemasaran">200 leads</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
